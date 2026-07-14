@@ -1,16 +1,9 @@
-const alertbox = document.getElementById("status-notification");
+const alertBox = document.getElementById("status-notification");
 
-
-const updateButton = document.getElementById("update-btn");
-
-
-    updateButton.addEventListener("click", updater);
-
-const headerDiv = document.getElementById(".custom-nordic-header");
+const updateButton = document.getElementById("update-btn");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     tton = document.getElementById("update-btn");
 
 function updater() {
-  // Update the h1 content
-  alertbox.innerHTML = "<h1>Updated Banner!</h1>"
+alertBox.innerHTML = "<h1><strong>UPDATED BANNER</strong><h1>";
 }
 
-updateButton.addEventListener("click", updater);
+updateButton.addEventListener ("click", updater);
